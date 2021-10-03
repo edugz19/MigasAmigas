@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 20px;
+}
+
+header div {
+    display: flex;
+    flex-flow: row wrap; 
+    align-items: center; 
+}
+
+#logo {
+    margin-right: 200px;
+    margin-left: 50px;
+}
+
+header div a {
+    margin: 10px;
+    margin-right: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(231, 71, 71);
+    font-weight: 600;
+}
+
+#lang {
+    margin-left: 50px;
+}
+
+#lang a {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(238, 118, 118);
+    height: 40px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+main div, footer {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main div p {
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(231, 71, 71);
+}
+
+#table-bakery, #table-pastries, #table-patties {
+    margin: 0 40px 0 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(139, 16, 16);
+}
+
+#table-bakery tr td {
+    width: 450px;
+    padding: 10px;
+    border: 3px solid rgb(243, 149, 165);
+    border-radius: 10px;
+}
+
+#table-pastries tr td {
+    width: 350px;
+    padding: 20px;
+    border: 3px solid rgb(243, 149, 165);
+    border-radius: 10px;
+}
+
+#table-patties tr td {
+    width: 700px;
+    padding: 20px;
+    border: 3px solid rgb(243, 149, 165);
+    border-radius: 10px;
+}
+
+#table-bakery p, #table-pastries p, #table-patties p{
+    text-align: center;
+}
+
+#table-bakery img, #table-pastries img, #table-patties img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+
+.center {
+    margin: 20px;
+    padding: 30px;
+}
+
